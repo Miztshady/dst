@@ -1,10 +1,6 @@
-import React from 'react';
-import ReactDOM from "react-dom";
-import * as pages from "../Pages.js"
-
-const initial = React.createElement(pages.indexPage());
+import * as pages from "../Translated_JS/Pages.js"
 
 ReactDOM.render(
-    initial,
+    pages.indexPage(),
     document.getElementById("main")
 )

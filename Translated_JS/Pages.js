@@ -1,7 +1,17 @@
 export function indexPage() {
     return React.createElement(
-        "h1",
-        null,
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, libero!"
+        "div",
+        { "class": "title" },
+        React.createElement(
+            "h2",
+            null,
+            "Welcome to"
+        ),
+        " ",
+        React.createElement(
+            "h1",
+            null,
+            "The Don't Starve IQ guide"
+        )
     );
 }

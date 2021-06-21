@@ -1,0 +1,41 @@
+body {
+    background-image: url("../background-image.jpg");
+    background-size: cover;
+    max-height: 100vh;
+}
+
+.containerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: 82vw;
+    height: 90vh;
+    top: 5vh;
+    border-radius: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 73vw;
+    top: 5vh;
+    left: 4vw;
+}
+
+.title h2 {
+    color: rgb(21, 21, 21);
+    margin-bottom: 0px;
+}
+
+.title h1 {
+    font-size: xxx-large;
+}

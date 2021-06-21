@@ -1,5 +1,7 @@
 export function indexPage() {
     return (
-        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, libero!</h1>
+        <div class="title">
+            <h2>Welcome to</h2> <h1>The Don't Starve IQ guide</h1>
+        </div>
     )
 }
