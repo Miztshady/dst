@@ -1,3 +1,8 @@
+:root {
+    --background-of-div: rgba(255, 255, 255, 0.1);
+    --backdrop-blur: blur(5px);
+}
+
 body {
     background-image: url("../background-image.jpg");
     background-size: cover;
@@ -12,8 +17,8 @@ body {
 
 .main {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
+    background-color: var(--background-of-div);
+    backdrop-filter: var(--backdrop-blur);
     width: 82vw;
     height: 90vh;
     top: 5vh;
@@ -38,4 +43,16 @@ body {
 
 .title h1 {
     font-size: xxx-large;
+}
+
+.description {
+    position: absolute;
+    bottom: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px;
+    background-color: var(--background-of-div);
+    width: 60vw;
+    height: 30vh;
+    border-radius: 20px;
 }
