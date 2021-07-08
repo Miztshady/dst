@@ -84,7 +84,7 @@ body {
 .creditsButton button {
     background-color: var(--bg-of-creditsButton);
     border-radius: 12px;
-    width: 15vw;
+    width: 10vw;
     height: 50px;
     font-family: "Belisa Plumilla Manual";
     font-size: 20px;
@@ -97,7 +97,7 @@ body {
     transform: translateX(-50%);
     background-color: var(--bg-of-creditsButton);
     border-radius: 12px;
-    width: 5vw;
+    width: 10vw;
     height: 50px;
     font-family: "Belisa Plumilla Manual";
     font-size: 26px;

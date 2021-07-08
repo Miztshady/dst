@@ -1,8 +1,33 @@
-import mainPage from "../Translated_JS/Pages.js"
+import * as functions from "../Translated_JS/Pages.js"
 
-ReactDOM.render(
-    <ReactRouterDOM.BrowserRouter>
-        <mainPage />
-    </ReactRouterDOM.BrowserRouter>,
-    document.getElementById("main")
-)
+export default function generateText(func) {
+
+    switch (func) {
+
+        case "indexPage": {
+
+            ReactDOM.render(
+                functions.indexPage(),
+                document.getElementById("main")
+            )
+
+            break;
+
+        }
+
+        case "creditsPage": {
+
+            ReactDOM.render(
+                functions.creditsPage(),
+                document.getElementById("main")
+            )
+
+            break;
+
+        }
+
+    }
+
+}
+
+generateText("indexPage")
