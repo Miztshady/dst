@@ -1,5 +1,17 @@
+@font-face {
+    font-family: "Belisa Plumilla Manual";
+    src: url("../Fonts/belisa_plumilla.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Stint Ultra Expanded";
+    src: url("../Fonts/StintUltraExpanded-Regular.ttf") format('truetype');
+}
+
 :root {
-    --background-of-div: rgba(255, 255, 255, 0.1);
+    --bg-of-div: rgba(255, 255, 255, 0.1);
+    --bg-of-description: rgba(255, 255, 255, 0.15);
+    --bg-of-creditsButton: rgba(255, 255, 255, 0.5);
     --backdrop-blur: blur(5px);
 }
 
@@ -17,7 +29,7 @@ body {
 
 .main {
     position: absolute;
-    background-color: var(--background-of-div);
+    background-color: var(--bg-of-div);
     backdrop-filter: var(--backdrop-blur);
     width: 82vw;
     height: 90vh;
@@ -30,6 +42,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: "Belisa Plumilla Manual";
+    font-size: 20px;
     position: relative;
     width: 73vw;
     top: 5vh;
@@ -37,22 +51,54 @@ body {
 }
 
 .title h2 {
+    font-size: 40px;
     color: rgb(21, 21, 21);
     margin-bottom: 0px;
 }
 
 .title h1 {
-    font-size: xxx-large;
+    font-size: 85px;
 }
 
 .description {
     position: absolute;
+    font-family: "Stint Ultra Expanded";
+    font-size: 18px;
     bottom: 20vh;
     left: 50%;
     transform: translateX(-50%);
     padding: 15px;
-    background-color: var(--background-of-div);
+    background-color: var(--bg-of-description);
     width: 60vw;
     height: 30vh;
     border-radius: 20px;
+}
+
+.creditsButton {
+    position: absolute;
+    bottom: 8vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.creditsButton button {
+    background-color: var(--bg-of-creditsButton);
+    border-radius: 12px;
+    width: 15vw;
+    height: 50px;
+    font-family: "Belisa Plumilla Manual";
+    font-size: 20px;
+}
+
+.homeButton {
+    position: absolute;
+    bottom: 8vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--bg-of-creditsButton);
+    border-radius: 12px;
+    width: 5vw;
+    height: 50px;
+    font-family: "Belisa Plumilla Manual";
+    font-size: 26px;
 }

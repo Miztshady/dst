@@ -1,6 +1,8 @@
-import * as pages from "../Translated_JS/Pages.js"
+import mainPage from "../Translated_JS/Pages.js"
 
 ReactDOM.render(
-    pages.indexPage(),
+    <ReactRouterDOM.BrowserRouter>
+        <mainPage />
+    </ReactRouterDOM.BrowserRouter>,
     document.getElementById("main")
 )
