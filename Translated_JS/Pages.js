@@ -1,56 +1,21 @@
-import { AnimatePresence, motion } from "framer-motion";
+import generateText from "../Translated_JS/loadPage.js";
 
-var styles = {
+function in_out() {
 
-    out: {
-        opacity: 0
-    }
+    var element = document.getElementById("chief");
+    var from = 'opacity: 0; transition: opacity 0.5s linear';
+    var to = 'opacity: 1; transition: opacity 0.5s linear';
 
-};
-
-export default function mainPage() {
-    React.createElement(
-        "div",
-        null,
-        React.createElement(
-            "div",
-            { "class": "creditsButton" },
-            React.createElement(
-                "button",
-                null,
-                React.createElement(
-                    NavLink,
-                    { to: "/index" },
-                    "Home"
-                )
-            ),
-            React.createElement(
-                "button",
-                null,
-                React.createElement(
-                    NavLink,
-                    { to: "/credits" },
-                    "Credits"
-                )
-            )
-        ),
-        React.createElement(
-            AnimatePresence,
-            null,
-            React.createElement(
-                Switch,
-                null,
-                React.createElement(Route, { path: "/index", component: indexPage }),
-                React.createElement(Route, { path: "/credits", component: creditsPage })
-            )
-        )
-    );
+    element.setAttribute("style", from);
+    setTimeout(function () {
+        element.setAttribute("style", to);
+    }, 500);
 }
 
 export function indexPage() {
     return React.createElement(
-        motion.div,
-        { initial: "out", exit: "out", variants: styles },
+        "div",
+        { id: "chief" },
         React.createElement(
             "div",
             { "class": "title" },
@@ -81,7 +46,7 @@ export function indexPage() {
             React.createElement(
                 "button",
                 { onClick: function onClick() {
-                        return location.href = "Credits.html";
+                        in_out();generateText("creditsPage");
                     } },
                 "Credits"
             )
@@ -90,15 +55,14 @@ export function indexPage() {
 }
 
 export function creditsPage() {
-
     return React.createElement(
-        motion.div,
-        { initial: "out", exit: "out", variants: styles },
+        "div",
+        { id: "chief" },
         React.createElement("div", { "class": "description" }),
         React.createElement(
             "button",
             { "class": "homeButton", onClick: function onClick() {
-                    return location.href = "index.html";
+                    in_out();generateText("indexPage");
                 } },
             "Home"
         )
