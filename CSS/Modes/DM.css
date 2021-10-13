@@ -1,0 +1,104 @@
+.main {
+    background: linear-gradient(166deg, var(--bg-of-div-DM), transparent);
+}
+
+.resultsTable::-webkit-scrollbar-thumb:hover {
+    background: var(--bg-of-div-DM); 
+}
+
+.creditsCard_Wrapper {
+    background-color: var(--bg-of-div-DM);
+}
+
+.description {
+    background-color: var(--bg-of-description-DM);
+    color: rgb(161 161 161);
+}
+
+.section {
+    background-color: var(--bg-of-description-DM);
+    color: rgb(161 161 161);
+}
+
+.titleSection {
+    color: rgb(210 210 210);
+}
+
+.resultsTable {
+    background-color: var(--bg-of-description-DM);
+}
+
+.allPages ul li {
+    background-color: var(--bg-of-creditsButton-DM);
+}
+
+.allPages ul li a {
+    color: rgb(161 161 161);
+}
+
+.startNowButton {
+    background-color: var(--bg-of-creditsButton-DM);
+    color: rgb(161 161 161);
+}
+
+/* Handle */
+.resultsTable::-webkit-scrollbar-thumb {
+    background-color: var(--bg-of-creditsButton-DM);
+}
+
+.creditsCard_Wrapper::-webkit-scrollbar-thumb {
+    background-color: rgb(124 124 124);
+}
+
+/* Handle on hover */
+.creditsCard_Wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(124 124 124 / 80%);
+}
+
+.creditsCard a {
+    background-color: var(--bg-of-creditsButton-DM);
+}
+
+.backButtonOf404Page {
+    background-color: var(--bg-of-creditsButton-DM);
+}
+
+.allPages ul li:hover {
+    background-color: var(--bg-of-creditsButton_hover-DM);
+}
+
+.startNowButton:hover {
+    background-color: var(--bg-of-creditsButton_hover-DM);
+}
+
+.creditsCard a {
+    color: rgb(161 161 161);
+}
+
+.creditsCard a:hover {
+    background-color: var(--bg-of-creditsButton_hover-DM);
+}
+
+.backButtonOf404Page:hover {
+    background-color: var(--bg-of-creditsButton_hover-DM);
+}
+
+.allPages ul button {
+    background-color: var(--bg-of-creditsButton-DM);
+}
+
+.allPages ul button:hover {
+    background-color: var(--bg-of-creditsButton_hover-DM);
+}
+
+.allPages ul button i {
+    color: rgb(161 161 161);
+}
+
+.title {
+    color: rgb(210 210 210);
+}
+
+.title h2 {
+    color: rgb(183 183 183);
+}
