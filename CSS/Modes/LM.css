@@ -1,77 +1,75 @@
 .main {
-    background: linear-gradient(166deg, var(--bg-of-div-LM), transparent);
-}
-
-.resultsTable::-webkit-scrollbar-thumb:hover {
-    background: var(--bg-of-div-LM); 
+  background: linear-gradient(166deg, var(--bg-of-div-LM), transparent);
 }
 
 .creditsCard_Wrapper {
-    background-color: var(--bg-of-div-LM);
+  background-color: var(--bg-of-div-LM);
+}
+.creditsCard_Wrapper::-webkit-scrollbar-thumb {
+  box-shadow: var(--box-shadow-div);
+}
+.creditsCard_Wrapper::-webkit-scrollbar-thumb:hover {
+  background-color: var(--bg-of-creditsButton-LM);
+  box-shadow: none;
 }
 
 .description {
-    background-color: var(--bg-of-description-LM);
+  background-color: var(--bg-of-description-LM);
 }
 
 .section {
-    background-color: var(--bg-of-description-LM);
+  background-color: var(--bg-of-description-LM);
 }
 
 .resultsTable {
-    background-color: var(--bg-of-description-LM);
+  background-color: var(--bg-of-description-LM);
+}
+.resultsTable::-webkit-scrollbar-thumb {
+  background-color: var(--bg-of-creditsButton-LM);
+  box-shadow: var(--box-shadow-div);
+}
+.resultsTable::-webkit-scrollbar-thumb:hover {
+  background: var(--bg-of-div-LM);
+  box-shadow: none;
 }
 
 .allPages ul li {
-    background-color: var(--bg-of-creditsButton-LM);
+  background-color: var(--bg-of-creditsButton-LM);
+}
+.allPages ul li:hover {
+  background-color: var(--bg-of-creditsButton_hover-LM);
+}
+.allPages ul button {
+  background-color: var(--bg-of-creditsButton-LM);
+}
+.allPages ul button:hover {
+  background-color: var(--bg-of-creditsButton_hover-LM);
+}
+.allPages ul button i {
+  color: black;
 }
 
 .startNowButton {
-    background-color: var(--bg-of-creditsButton-LM);
+  background-color: var(--bg-of-creditsButton-LM);
+  color: black;
 }
-
-/* Handle */
-.resultsTable::-webkit-scrollbar-thumb {
-    background-color: var(--bg-of-creditsButton-LM);
-}
-
-/* Handle on hover */
-.creditsCard_Wrapper::-webkit-scrollbar-thumb:hover {
-    background-color: var(--bg-of-creditsButton-LM);
+.startNowButton:hover {
+  background-color: var(--bg-of-creditsButton_hover-LM);
 }
 
 .creditsCard a {
-    background-color: var(--bg-of-creditsButton-LM);
+  background-color: var(--bg-of-creditsButton-LM);
+}
+.creditsCard a:hover {
+  background-color: var(--bg-of-creditsButton_hover-LM);
 }
 
 .backButtonOf404Page {
-    background-color: var(--bg-of-creditsButton-LM);
-}
-
-.allPages ul li:hover {
-    background-color: var(--bg-of-creditsButton_hover-LM);
-}
-
-.startNowButton:hover {
-    background-color: var(--bg-of-creditsButton_hover-LM);
-}
-
-.creditsCard a:hover {
-    background-color: var(--bg-of-creditsButton_hover-LM);
+  background-color: var(--bg-of-creditsButton-LM);
 }
 
 .backButtonOf404Page:hover {
-    background-color: var(--bg-of-creditsButton_hover-LM);
+  background-color: var(--bg-of-creditsButton_hover-LM);
 }
 
-.allPages ul button {
-    background-color: var(--bg-of-creditsButton-LM);
-}
-
-.allPages ul button:hover {
-    background-color: var(--bg-of-creditsButton_hover-LM);
-}
-
-.allPages ul button i {
-    color: black;
-}
+/*# sourceMappingURL=LM.css.map */
