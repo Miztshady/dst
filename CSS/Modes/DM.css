@@ -1,104 +1,91 @@
 .main {
-    background: linear-gradient(166deg, var(--bg-of-div-DM), transparent);
-}
-
-.resultsTable::-webkit-scrollbar-thumb:hover {
-    background: var(--bg-of-div-DM); 
+  background: linear-gradient(166deg, var(--bg-of-div-DM), transparent);
 }
 
 .creditsCard_Wrapper {
-    background-color: var(--bg-of-div-DM);
+  background-color: var(--bg-of-div-DM);
+}
+.creditsCard_Wrapper::-webkit-scrollbar-thumb {
+  background-color: #7c7c7c;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.75);
+}
+.creditsCard_Wrapper::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(124, 124, 124, 0.8);
+  box-shadow: none;
 }
 
 .description {
-    background-color: var(--bg-of-description-DM);
-    color: rgb(161 161 161);
+  background-color: var(--bg-of-description-DM);
+  color: #a1a1a1;
 }
 
 .section {
-    background-color: var(--bg-of-description-DM);
-    color: rgb(161 161 161);
+  background-color: var(--bg-of-description-DM);
+  color: #a1a1a1;
 }
 
 .titleSection {
-    color: rgb(210 210 210);
+  color: #d2d2d2;
 }
 
 .resultsTable {
-    background-color: var(--bg-of-description-DM);
+  background-color: var(--bg-of-description-DM);
+}
+.resultsTable::-webkit-scrollbar-thumb {
+  background-color: var(--bg-of-creditsButton-DM);
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.75);
+}
+.resultsTable::-webkit-scrollbar-thumb:hover {
+  background: var(--bg-of-div-DM);
+  box-shadow: none;
 }
 
 .allPages ul li {
-    background-color: var(--bg-of-creditsButton-DM);
+  background-color: var(--bg-of-creditsButton-DM);
 }
-
+.allPages ul li:hover {
+  background-color: var(--bg-of-creditsButton_hover-DM);
+}
 .allPages ul li a {
-    color: rgb(161 161 161);
+  color: #a1a1a1;
+}
+.allPages ul button {
+  background-color: var(--bg-of-creditsButton-DM);
+}
+.allPages ul button:hover {
+  background-color: var(--bg-of-creditsButton_hover-DM);
+}
+.allPages ul button i {
+  color: #a1a1a1;
 }
 
 .startNowButton {
-    background-color: var(--bg-of-creditsButton-DM);
-    color: rgb(161 161 161);
+  background-color: var(--bg-of-creditsButton-DM);
+  color: #a1a1a1;
 }
-
-/* Handle */
-.resultsTable::-webkit-scrollbar-thumb {
-    background-color: var(--bg-of-creditsButton-DM);
-}
-
-.creditsCard_Wrapper::-webkit-scrollbar-thumb {
-    background-color: rgb(124 124 124);
-}
-
-/* Handle on hover */
-.creditsCard_Wrapper::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(124 124 124 / 80%);
-}
-
-.creditsCard a {
-    background-color: var(--bg-of-creditsButton-DM);
+.startNowButton:hover {
+  background-color: var(--bg-of-creditsButton_hover-DM);
 }
 
 .backButtonOf404Page {
-    background-color: var(--bg-of-creditsButton-DM);
+  background-color: var(--bg-of-creditsButton-DM);
 }
-
-.allPages ul li:hover {
-    background-color: var(--bg-of-creditsButton_hover-DM);
-}
-
-.startNowButton:hover {
-    background-color: var(--bg-of-creditsButton_hover-DM);
+.backButtonOf404Page:hover {
+  background-color: var(--bg-of-creditsButton_hover-DM);
 }
 
 .creditsCard a {
-    color: rgb(161 161 161);
+  color: #a1a1a1;
 }
-
 .creditsCard a:hover {
-    background-color: var(--bg-of-creditsButton_hover-DM);
-}
-
-.backButtonOf404Page:hover {
-    background-color: var(--bg-of-creditsButton_hover-DM);
-}
-
-.allPages ul button {
-    background-color: var(--bg-of-creditsButton-DM);
-}
-
-.allPages ul button:hover {
-    background-color: var(--bg-of-creditsButton_hover-DM);
-}
-
-.allPages ul button i {
-    color: rgb(161 161 161);
+  background-color: var(--bg-of-creditsButton_hover-DM);
 }
 
 .title {
-    color: rgb(210 210 210);
+  color: #d2d2d2;
+}
+.title h2 {
+  color: #b7b7b7;
 }
 
-.title h2 {
-    color: rgb(183 183 183);
-}
+/*# sourceMappingURL=DM.css.map */
